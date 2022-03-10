@@ -1,0 +1,41 @@
+{
+    "name": "globalsmartotp/laravel-otp",
+    "description": "This package allows you to send otp in laravel projects.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ehsan Sabet",
+            "email": "ehsan.sabet@hotmail.com"
+        }
+    ],
+    "homepage": "https://github.com/GlobalSmartOTP/laravel-otp",
+    "keywords": ["Laravel", "LaravelOTP"],
+    "require": {
+        "illuminate/support": "~9",
+        "globalsmartotp/php-lib": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~9.0",
+        "orchestra/testbench": "~9"
+    },
+    "autoload": {
+        "psr-4": {
+            "GlobalSmartOTP\\LaravelOTP\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "GlobalSmartOTP\\LaravelOTP\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "GlobalSmartOTP\\LaravelOTP\\LaravelOTPServiceProvider"
+            ],
+            "aliases": {
+                "LaravelOTP": "GlobalSmartOTP\\LaravelOTP\\Facades\\LaravelOTP"
+            }
+        }
+    }
+}
