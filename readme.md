@@ -3,7 +3,8 @@
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-This package allows you to connect to gsOTP.com server from your laravel application.
+Send OTP for one-time password and mobile number verification code from various SMS, voicemail, messaging, and smart hybrid channels.
+This package allows you to connect to gsOTP.com server from your laravel applications.
 
 ## Installation
 
@@ -11,11 +12,17 @@ Via Composer
 
 ``` bash
 $ composer require globalsmartotp/laravel-otp
+
+#Or if using Laravel Sail
+$ sail composer require globalsmartotp/laravel-otp
 ```
 
 Publish
 ``` bash
-$ php artisan vendor:publish --provider=GlobalSmartOTP\LaravelOTP\LaravelOTPServiceProvider
+$ php artisan vendor:publish --tag=laravel-otp.config
+
+#Or if using Laravel Sail
+$ sail artisan vendor:publish --tag=laravel-otp.config
 ```
 
 ## Usage
