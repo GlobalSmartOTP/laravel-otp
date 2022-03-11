@@ -1,7 +1,11 @@
+![gsOTP](logo.png)
+
 # LaravelOTP
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Total Downloads][ico-downloads]][link-downloads]
+
+![فارسی](readme-fa.md)
 
 Send OTP for one-time password and mobile number verification code from various SMS, voicemail, messaging, and smart hybrid channels.
 This package allows you to connect to gsOTP.com server from your laravel applications.
