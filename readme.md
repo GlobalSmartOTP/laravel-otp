@@ -1,3 +1,13 @@
+
+# DEPRECATED! Please check [MessageWay](https://github.com/MessageWay/MessageWayLaravel)
+
+![DEPRECATED][ico-deprecated]
+
+[ico-deprecated]: https://img.shields.io/badge/-DEPRECATED-red?style=for-the-badge
+
+
+----
+
 ![gsOTP](logo.png)
 
 # LaravelOTP
